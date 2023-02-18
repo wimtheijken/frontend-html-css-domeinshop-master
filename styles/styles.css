@@ -1,0 +1,196 @@
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #1C2B32; /* dark green */
+}
+
+h1  {
+    font-size: 95px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+a {
+    color: #899CA0; /* gray */
+}
+
+header p {
+    text-align: center;
+}
+header form {
+    text-align: center;
+    margin: 25px;
+}
+
+footer p {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+::placeholder {
+    color: #1C2B32; /* dark green */
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+main {
+    width: 1000px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+/*///////////// 3.1 Header /////////////*/
+
+header {
+    padding-top: 80px;
+    padding-bottom: 300px;
+    background-image:  url("../assets/images/mountains.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.check {
+    width: 280px;
+    padding: 17px;
+    margin-right: -5px;
+    border: solid #1C2B32 2px; /* dark green */
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background: rgba(0,0,0,0.0);
+}
+
+.submit {
+    color: white;
+    width: 190px;
+    padding: 17px;
+    border: solid #1C2B32 2px; /* dark green */
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #1C2B32; /* dark green */
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+.quote-box {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+
+.quote-icon {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.quote {
+    padding-top: 55px;
+    padding-right: 70px;
+    padding-left: 140px;
+}
+
+.name {
+    display: flex;
+}
+
+.quote img {
+    width: 44px;
+    height: 44px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+span {
+    padding: 20px;
+    margin-top: 6px;
+}
+
+/*///////////// 3.3 Support /////////////*/
+
+.callcenter {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    width: 150px;
+    padding: 17px;
+    margin-top: 20px;
+    border: solid #1C2B32 2px; /* dark green */
+    background-color: #1C2B32; /* dark green */
+    border-radius: 30px;
+}
+
+/*///////////// 3.4 Faq /////////////*/
+
+summary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+details > p {
+    color: white;
+    padding: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #899CA0; /* gray */
+    border-radius: 10px;
+}
+
+/*///////////// 3.5 Footer /////////////*/
+
+footer {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1C2B32; /* dark green */
+}
